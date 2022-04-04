@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05FDC53B443A17A3B7C74729 /* Pods_MoneyTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1E563776C69B85B0074E1F /* Pods_MoneyTree.framework */; };
+		31F14780398AB8AFA9741D01 /* Pods_MoneyTree_MoneyTreeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BA04161D280B12C0B8D7F2 /* Pods_MoneyTree_MoneyTreeUITests.framework */; };
+		98C5198EFCB95FDBF8BCBAA6 /* Pods_MoneyTreeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0713DC5FB31F38B84992B4D2 /* Pods_MoneyTreeTests.framework */; };
 		997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C527FB022B00A074E3 /* AppDelegate.swift */; };
 		997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C727FB022B00A074E3 /* SceneDelegate.swift */; };
 		997A83CA27FB022B00A074E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C927FB022B00A074E3 /* ViewController.swift */; };
-		997A83CD27FB022B00A074E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997A83CB27FB022B00A074E3 /* Main.storyboard */; };
 		997A83CF27FB022D00A074E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997A83CE27FB022D00A074E3 /* Assets.xcassets */; };
 		997A83D227FB022D00A074E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997A83D027FB022D00A074E3 /* LaunchScreen.storyboard */; };
 		997A83DD27FB022D00A074E3 /* MoneyTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83DC27FB022D00A074E3 /* MoneyTreeTests.swift */; };
@@ -36,11 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0713DC5FB31F38B84992B4D2 /* Pods_MoneyTreeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTreeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D22E22A5D8F714B7AA5F017 /* Pods-MoneyTreeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTreeTests.release.xcconfig"; path = "Target Support Files/Pods-MoneyTreeTests/Pods-MoneyTreeTests.release.xcconfig"; sourceTree = "<group>"; };
+		74F819F91E03593EBFE5283B /* Pods-MoneyTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTree.release.xcconfig"; path = "Target Support Files/Pods-MoneyTree/Pods-MoneyTree.release.xcconfig"; sourceTree = "<group>"; };
+		7A3556731A729A4E4D0416E5 /* Pods-MoneyTreeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTreeTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTreeTests/Pods-MoneyTreeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1E563776C69B85B0074E1F /* Pods_MoneyTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8186227DBEE2A0239A757070 /* Pods-MoneyTree-MoneyTreeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTree-MoneyTreeUITests.release.xcconfig"; path = "Target Support Files/Pods-MoneyTree-MoneyTreeUITests/Pods-MoneyTree-MoneyTreeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93BA04161D280B12C0B8D7F2 /* Pods_MoneyTree_MoneyTreeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTree_MoneyTreeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83C227FB022B00A074E3 /* MoneyTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83C527FB022B00A074E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997A83C727FB022B00A074E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		997A83C927FB022B00A074E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		997A83CC27FB022B00A074E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		997A83CE27FB022D00A074E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997A83D127FB022D00A074E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		997A83D327FB022D00A074E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		997A83E227FB022D00A074E3 /* MoneyTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83E627FB022E00A074E3 /* MoneyTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTreeUITests.swift; sourceTree = "<group>"; };
 		997A83E827FB022E00A074E3 /* MoneyTreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6A262655267246083E282DC /* Pods-MoneyTree-MoneyTreeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTree-MoneyTreeUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTree-MoneyTreeUITests/Pods-MoneyTree-MoneyTreeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C955A7B72F468982CB51A70A /* Pods-MoneyTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTree.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTree/Pods-MoneyTree.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FDC53B443A17A3B7C74729 /* Pods_MoneyTree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C5198EFCB95FDBF8BCBAA6 /* Pods_MoneyTreeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F14780398AB8AFA9741D01 /* Pods_MoneyTree_MoneyTreeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				997A83DB27FB022D00A074E3 /* MoneyTreeTests */,
 				997A83E527FB022E00A074E3 /* MoneyTreeUITests */,
 				997A83C327FB022B00A074E3 /* Products */,
+				DA6A5C9FA71FF78117013EC2 /* Pods */,
+				B7769836B32FE64152A246CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +117,6 @@
 				997A83C527FB022B00A074E3 /* AppDelegate.swift */,
 				997A83C727FB022B00A074E3 /* SceneDelegate.swift */,
 				997A83C927FB022B00A074E3 /* ViewController.swift */,
-				997A83CB27FB022B00A074E3 /* Main.storyboard */,
 				997A83CE27FB022D00A074E3 /* Assets.xcassets */,
 				997A83D027FB022D00A074E3 /* LaunchScreen.storyboard */,
 				997A83D327FB022D00A074E3 /* Info.plist */,
@@ -127,6 +141,30 @@
 			path = MoneyTreeUITests;
 			sourceTree = "<group>";
 		};
+		B7769836B32FE64152A246CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E563776C69B85B0074E1F /* Pods_MoneyTree.framework */,
+				93BA04161D280B12C0B8D7F2 /* Pods_MoneyTree_MoneyTreeUITests.framework */,
+				0713DC5FB31F38B84992B4D2 /* Pods_MoneyTreeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6A5C9FA71FF78117013EC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C955A7B72F468982CB51A70A /* Pods-MoneyTree.debug.xcconfig */,
+				74F819F91E03593EBFE5283B /* Pods-MoneyTree.release.xcconfig */,
+				C6A262655267246083E282DC /* Pods-MoneyTree-MoneyTreeUITests.debug.xcconfig */,
+				8186227DBEE2A0239A757070 /* Pods-MoneyTree-MoneyTreeUITests.release.xcconfig */,
+				7A3556731A729A4E4D0416E5 /* Pods-MoneyTreeTests.debug.xcconfig */,
+				6D22E22A5D8F714B7AA5F017 /* Pods-MoneyTreeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997A83EC27FB022E00A074E3 /* Build configuration list for PBXNativeTarget "MoneyTree" */;
 			buildPhases = (
+				2BB0E2A25B6A3ADCFC5998C4 /* [CP] Check Pods Manifest.lock */,
 				997A83BE27FB022B00A074E3 /* Sources */,
 				997A83BF27FB022B00A074E3 /* Frameworks */,
 				997A83C027FB022B00A074E3 /* Resources */,
+				93485CD9EEDFB1351DEE0A3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997A83EF27FB022E00A074E3 /* Build configuration list for PBXNativeTarget "MoneyTreeTests" */;
 			buildPhases = (
+				271422F69921FE940638F8A5 /* [CP] Check Pods Manifest.lock */,
 				997A83D427FB022D00A074E3 /* Sources */,
 				997A83D527FB022D00A074E3 /* Frameworks */,
 				997A83D627FB022D00A074E3 /* Resources */,
@@ -169,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997A83F227FB022E00A074E3 /* Build configuration list for PBXNativeTarget "MoneyTreeUITests" */;
 			buildPhases = (
+				AA5C206A89BB60631BBE1D01 /* [CP] Check Pods Manifest.lock */,
 				997A83DE27FB022D00A074E3 /* Sources */,
 				997A83DF27FB022D00A074E3 /* Frameworks */,
 				997A83E027FB022D00A074E3 /* Resources */,
+				7526447C8D4A74B9D5B540C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +276,6 @@
 			files = (
 				997A83D227FB022D00A074E3 /* LaunchScreen.storyboard in Resources */,
 				997A83CF27FB022D00A074E3 /* Assets.xcassets in Resources */,
-				997A83CD27FB022B00A074E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +294,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		271422F69921FE940638F8A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyTreeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB0E2A25B6A3ADCFC5998C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyTree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7526447C8D4A74B9D5B540C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyTree-MoneyTreeUITests/Pods-MoneyTree-MoneyTreeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyTree-MoneyTreeUITests/Pods-MoneyTree-MoneyTreeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyTree-MoneyTreeUITests/Pods-MoneyTree-MoneyTreeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93485CD9EEDFB1351DEE0A3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyTree/Pods-MoneyTree-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyTree/Pods-MoneyTree-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyTree/Pods-MoneyTree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5C206A89BB60631BBE1D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyTree-MoneyTreeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		997A83BE27FB022B00A074E3 /* Sources */ = {
@@ -297,14 +442,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		997A83CB27FB022B00A074E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				997A83CC27FB022B00A074E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		997A83D027FB022D00A074E3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +571,7 @@
 		};
 		997A83ED27FB022E00A074E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C955A7B72F468982CB51A70A /* Pods-MoneyTree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +582,6 @@
 				INFOPLIST_FILE = MoneyTree/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -463,6 +600,7 @@
 		};
 		997A83EE27FB022E00A074E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F819F91E03593EBFE5283B /* Pods-MoneyTree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,7 +611,6 @@
 				INFOPLIST_FILE = MoneyTree/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -492,6 +629,7 @@
 		};
 		997A83F027FB022E00A074E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3556731A729A4E4D0416E5 /* Pods-MoneyTreeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +650,7 @@
 		};
 		997A83F127FB022E00A074E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D22E22A5D8F714B7AA5F017 /* Pods-MoneyTreeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +671,7 @@
 		};
 		997A83F327FB022E00A074E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A262655267246083E282DC /* Pods-MoneyTree-MoneyTreeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +690,7 @@
 		};
 		997A83F427FB022E00A074E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8186227DBEE2A0239A757070 /* Pods-MoneyTree-MoneyTreeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
