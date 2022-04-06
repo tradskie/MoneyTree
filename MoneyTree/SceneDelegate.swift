@@ -19,7 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = ViewController()
+        let homeViewController = HomeViewController(viewModel: HomeViewModel(), router: AppRouterGeneral.sharedInstance())
+        homeViewController.title = "Balances"
+        let navigationController = UINavigationController(rootViewController: homeViewController)
+        AppRouterGeneral.sharedInstance().navigationController = navigationController
+        window.rootViewController = navigationController
         window.makeKeyAndVisible()
         self.window = window
     }

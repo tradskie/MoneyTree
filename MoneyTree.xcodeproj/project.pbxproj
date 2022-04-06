@@ -10,9 +10,25 @@
 		05FDC53B443A17A3B7C74729 /* Pods_MoneyTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1E563776C69B85B0074E1F /* Pods_MoneyTree.framework */; };
 		31F14780398AB8AFA9741D01 /* Pods_MoneyTree_MoneyTreeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BA04161D280B12C0B8D7F2 /* Pods_MoneyTree_MoneyTreeUITests.framework */; };
 		98C5198EFCB95FDBF8BCBAA6 /* Pods_MoneyTreeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0713DC5FB31F38B84992B4D2 /* Pods_MoneyTreeTests.framework */; };
+		991C3C3427FB612F008F1221 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C3327FB612F008F1221 /* HomeViewController.swift */; };
+		991C3C3827FB61C3008F1221 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C3727FB61C3008F1221 /* AppRouter.swift */; };
+		991C3C3A27FB61D9008F1221 /* AppRouterGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C3927FB61D9008F1221 /* AppRouterGeneral.swift */; };
+		991C3C3C27FB61F0008F1221 /* GeneralRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C3B27FB61F0008F1221 /* GeneralRoutable.swift */; };
+		991C3C3F27FB626C008F1221 /* HomeRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C3E27FB626C008F1221 /* HomeRoutable.swift */; };
+		991C3C4127FB629B008F1221 /* AppRouter+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C4027FB629B008F1221 /* AppRouter+Home.swift */; };
+		991C3C4327FB69F9008F1221 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C4227FB69F9008F1221 /* HomeViewModel.swift */; };
+		991C3C4527FB6E85008F1221 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C4427FB6E85008F1221 /* HomeSection.swift */; };
+		991C3C4827FB7030008F1221 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C4727FB7030008F1221 /* TableViewDataSource.swift */; };
+		991C3C4B27FB7169008F1221 /* SectionSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C4A27FB7169008F1221 /* SectionSetter.swift */; };
+		991C3C4D27FB7238008F1221 /* ValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C4C27FB7238008F1221 /* ValueCell.swift */; };
+		991C3C4F27FB7256008F1221 /* ValueCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C4E27FB7256008F1221 /* ValueCellDataSource.swift */; };
+		991C3C5227FB73EE008F1221 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5127FB73EE008F1221 /* UIViewController+Extensions.swift */; };
+		991C3C5527FCB776008F1221 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5427FCB776008F1221 /* HomeTableViewCell.swift */; };
+		991C3C5727FCB786008F1221 /* HomeTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5627FCB786008F1221 /* HomeTableViewCellViewModel.swift */; };
+		991C3C5927FCC7EE008F1221 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5827FCC7EE008F1221 /* UITableView+Extensions.swift */; };
+		991C3C5B27FCC894008F1221 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5A27FCC894008F1221 /* HomeView.swift */; };
 		997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C527FB022B00A074E3 /* AppDelegate.swift */; };
 		997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C727FB022B00A074E3 /* SceneDelegate.swift */; };
-		997A83CA27FB022B00A074E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C927FB022B00A074E3 /* ViewController.swift */; };
 		997A83CF27FB022D00A074E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997A83CE27FB022D00A074E3 /* Assets.xcassets */; };
 		997A83D227FB022D00A074E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997A83D027FB022D00A074E3 /* LaunchScreen.storyboard */; };
 		997A83DD27FB022D00A074E3 /* MoneyTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83DC27FB022D00A074E3 /* MoneyTreeTests.swift */; };
@@ -45,10 +61,26 @@
 		7B1E563776C69B85B0074E1F /* Pods_MoneyTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8186227DBEE2A0239A757070 /* Pods-MoneyTree-MoneyTreeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTree-MoneyTreeUITests.release.xcconfig"; path = "Target Support Files/Pods-MoneyTree-MoneyTreeUITests/Pods-MoneyTree-MoneyTreeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		93BA04161D280B12C0B8D7F2 /* Pods_MoneyTree_MoneyTreeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTree_MoneyTreeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		991C3C3327FB612F008F1221 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		991C3C3727FB61C3008F1221 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		991C3C3927FB61D9008F1221 /* AppRouterGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterGeneral.swift; sourceTree = "<group>"; };
+		991C3C3B27FB61F0008F1221 /* GeneralRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRoutable.swift; sourceTree = "<group>"; };
+		991C3C3E27FB626C008F1221 /* HomeRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoutable.swift; sourceTree = "<group>"; };
+		991C3C4027FB629B008F1221 /* AppRouter+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRouter+Home.swift"; sourceTree = "<group>"; };
+		991C3C4227FB69F9008F1221 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		991C3C4427FB6E85008F1221 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
+		991C3C4727FB7030008F1221 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		991C3C4A27FB7169008F1221 /* SectionSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSetter.swift; sourceTree = "<group>"; };
+		991C3C4C27FB7238008F1221 /* ValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueCell.swift; sourceTree = "<group>"; };
+		991C3C4E27FB7256008F1221 /* ValueCellDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueCellDataSource.swift; sourceTree = "<group>"; };
+		991C3C5127FB73EE008F1221 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		991C3C5427FCB776008F1221 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		991C3C5627FCB786008F1221 /* HomeTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		991C3C5827FCC7EE008F1221 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		991C3C5A27FCC894008F1221 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		997A83C227FB022B00A074E3 /* MoneyTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83C527FB022B00A074E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997A83C727FB022B00A074E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		997A83C927FB022B00A074E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		997A83CE27FB022D00A074E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997A83D127FB022D00A074E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		997A83D327FB022D00A074E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +121,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		991C3C3227FB60FB008F1221 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C3627FB615F008F1221 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		991C3C3527FB6152008F1221 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C3D27FB624D008F1221 /* ApplicationRouters */,
+				991C3C3727FB61C3008F1221 /* AppRouter.swift */,
+				991C3C3927FB61D9008F1221 /* AppRouterGeneral.swift */,
+				991C3C3B27FB61F0008F1221 /* GeneralRoutable.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		991C3C3627FB615F008F1221 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C5327FCB6C5008F1221 /* HomeTableViewCell */,
+				991C3C3327FB612F008F1221 /* HomeViewController.swift */,
+				991C3C5A27FCC894008F1221 /* HomeView.swift */,
+				991C3C4227FB69F9008F1221 /* HomeViewModel.swift */,
+				991C3C4427FB6E85008F1221 /* HomeSection.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		991C3C3D27FB624D008F1221 /* ApplicationRouters */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C3E27FB626C008F1221 /* HomeRoutable.swift */,
+				991C3C4027FB629B008F1221 /* AppRouter+Home.swift */,
+			);
+			path = ApplicationRouters;
+			sourceTree = "<group>";
+		};
+		991C3C4627FB6EE1008F1221 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C4927FB715B008F1221 /* TableViewAndCells */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		991C3C4927FB715B008F1221 /* TableViewAndCells */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C4A27FB7169008F1221 /* SectionSetter.swift */,
+				991C3C4727FB7030008F1221 /* TableViewDataSource.swift */,
+				991C3C4C27FB7238008F1221 /* ValueCell.swift */,
+				991C3C4E27FB7256008F1221 /* ValueCellDataSource.swift */,
+			);
+			path = TableViewAndCells;
+			sourceTree = "<group>";
+		};
+		991C3C5027FB739D008F1221 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C5127FB73EE008F1221 /* UIViewController+Extensions.swift */,
+				991C3C5827FCC7EE008F1221 /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		991C3C5327FCB6C5008F1221 /* HomeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C5427FCB776008F1221 /* HomeTableViewCell.swift */,
+				991C3C5627FCB786008F1221 /* HomeTableViewCellViewModel.swift */,
+			);
+			path = HomeTableViewCell;
+			sourceTree = "<group>";
+		};
 		997A83B927FB022B00A074E3 = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +225,10 @@
 			children = (
 				997A83C527FB022B00A074E3 /* AppDelegate.swift */,
 				997A83C727FB022B00A074E3 /* SceneDelegate.swift */,
-				997A83C927FB022B00A074E3 /* ViewController.swift */,
+				991C3C5027FB739D008F1221 /* Extensions */,
+				991C3C4627FB6EE1008F1221 /* Helpers */,
+				991C3C3527FB6152008F1221 /* Routers */,
+				991C3C3227FB60FB008F1221 /* Modules */,
 				997A83CE27FB022D00A074E3 /* Assets.xcassets */,
 				997A83D027FB022D00A074E3 /* LaunchScreen.storyboard */,
 				997A83D327FB022D00A074E3 /* Info.plist */,
@@ -161,7 +273,6 @@
 				7A3556731A729A4E4D0416E5 /* Pods-MoneyTreeTests.debug.xcconfig */,
 				6D22E22A5D8F714B7AA5F017 /* Pods-MoneyTreeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -403,9 +514,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997A83CA27FB022B00A074E3 /* ViewController.swift in Sources */,
+				991C3C4F27FB7256008F1221 /* ValueCellDataSource.swift in Sources */,
+				991C3C3F27FB626C008F1221 /* HomeRoutable.swift in Sources */,
+				991C3C4827FB7030008F1221 /* TableViewDataSource.swift in Sources */,
+				991C3C4327FB69F9008F1221 /* HomeViewModel.swift in Sources */,
+				991C3C3827FB61C3008F1221 /* AppRouter.swift in Sources */,
+				991C3C5727FCB786008F1221 /* HomeTableViewCellViewModel.swift in Sources */,
 				997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */,
+				991C3C3C27FB61F0008F1221 /* GeneralRoutable.swift in Sources */,
+				991C3C5227FB73EE008F1221 /* UIViewController+Extensions.swift in Sources */,
+				991C3C5927FCC7EE008F1221 /* UITableView+Extensions.swift in Sources */,
+				991C3C3A27FB61D9008F1221 /* AppRouterGeneral.swift in Sources */,
+				991C3C4D27FB7238008F1221 /* ValueCell.swift in Sources */,
+				991C3C4527FB6E85008F1221 /* HomeSection.swift in Sources */,
+				991C3C4127FB629B008F1221 /* AppRouter+Home.swift in Sources */,
 				997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */,
+				991C3C4B27FB7169008F1221 /* SectionSetter.swift in Sources */,
+				991C3C5527FCB776008F1221 /* HomeTableViewCell.swift in Sources */,
+				991C3C3427FB612F008F1221 /* HomeViewController.swift in Sources */,
+				991C3C5B27FCC894008F1221 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
