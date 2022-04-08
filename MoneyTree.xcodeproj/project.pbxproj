@@ -27,6 +27,24 @@
 		991C3C5727FCB786008F1221 /* HomeTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5627FCB786008F1221 /* HomeTableViewCellViewModel.swift */; };
 		991C3C5927FCC7EE008F1221 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5827FCC7EE008F1221 /* UITableView+Extensions.swift */; };
 		991C3C5B27FCC894008F1221 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C5A27FCC894008F1221 /* HomeView.swift */; };
+		991C3C6827FDF79B008F1221 /* GetAccountsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C6727FDF79B008F1221 /* GetAccountsResponse.swift */; };
+		991C3C6A27FDFE54008F1221 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C6927FDFE54008F1221 /* HomeInteractor.swift */; };
+		991C3C6C27FDFEB5008F1221 /* HomeInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C6B27FDFEB5008F1221 /* HomeInterfaces.swift */; };
+		991C3C6E27FDFF04008F1221 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C6D27FDFF04008F1221 /* HomeModels.swift */; };
+		991C3C7327FF0204008F1221 /* BusEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C7227FF0204008F1221 /* BusEvent.swift */; };
+		991C3C7527FF0220008F1221 /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C7427FF0220008F1221 /* EventBus.swift */; };
+		991C3C7727FF0679008F1221 /* SerialBusEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C7627FF0679008F1221 /* SerialBusEvent.swift */; };
+		991C3C7927FF06AD008F1221 /* SubrequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C7827FF06AD008F1221 /* SubrequestProtocol.swift */; };
+		991C3C7C27FF06C8008F1221 /* Single+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C7B27FF06C8008F1221 /* Single+Log.swift */; };
+		991C3C7E27FF06DD008F1221 /* Observable+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C7D27FF06DD008F1221 /* Observable+Log.swift */; };
+		991C3C8127FF0736008F1221 /* SerialSubrequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C8027FF0736008F1221 /* SerialSubrequest.swift */; };
+		991C3C8327FF074A008F1221 /* ConcurrentSubrequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C8227FF074A008F1221 /* ConcurrentSubrequest.swift */; };
+		991C3C8527FF0C91008F1221 /* GetAccountsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C8427FF0C91008F1221 /* GetAccountsEvent.swift */; };
+		991C3C8827FF1058008F1221 /* API+Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C8727FF1058008F1221 /* API+Accounts.swift */; };
+		991C3C8B27FF424B008F1221 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C8A27FF424B008F1221 /* API.swift */; };
+		991C3C8D27FF426F008F1221 /* APISuperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C8C27FF426F008F1221 /* APISuperClass.swift */; };
+		991C3C91280001C3008F1221 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C90280001C3008F1221 /* APIError.swift */; };
+		991C3C9328000473008F1221 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C9228000473008F1221 /* HomePresenter.swift */; };
 		997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C527FB022B00A074E3 /* AppDelegate.swift */; };
 		997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C727FB022B00A074E3 /* SceneDelegate.swift */; };
 		997A83CF27FB022D00A074E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997A83CE27FB022D00A074E3 /* Assets.xcassets */; };
@@ -78,6 +96,24 @@
 		991C3C5627FCB786008F1221 /* HomeTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		991C3C5827FCC7EE008F1221 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		991C3C5A27FCC894008F1221 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		991C3C6727FDF79B008F1221 /* GetAccountsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAccountsResponse.swift; sourceTree = "<group>"; };
+		991C3C6927FDFE54008F1221 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		991C3C6B27FDFEB5008F1221 /* HomeInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterfaces.swift; sourceTree = "<group>"; };
+		991C3C6D27FDFF04008F1221 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		991C3C7227FF0204008F1221 /* BusEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusEvent.swift; sourceTree = "<group>"; };
+		991C3C7427FF0220008F1221 /* EventBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBus.swift; sourceTree = "<group>"; };
+		991C3C7627FF0679008F1221 /* SerialBusEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialBusEvent.swift; sourceTree = "<group>"; };
+		991C3C7827FF06AD008F1221 /* SubrequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubrequestProtocol.swift; sourceTree = "<group>"; };
+		991C3C7B27FF06C8008F1221 /* Single+Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Single+Log.swift"; sourceTree = "<group>"; };
+		991C3C7D27FF06DD008F1221 /* Observable+Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Log.swift"; sourceTree = "<group>"; };
+		991C3C8027FF0736008F1221 /* SerialSubrequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSubrequest.swift; sourceTree = "<group>"; };
+		991C3C8227FF074A008F1221 /* ConcurrentSubrequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentSubrequest.swift; sourceTree = "<group>"; };
+		991C3C8427FF0C91008F1221 /* GetAccountsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAccountsEvent.swift; sourceTree = "<group>"; };
+		991C3C8727FF1058008F1221 /* API+Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Accounts.swift"; sourceTree = "<group>"; };
+		991C3C8A27FF424B008F1221 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		991C3C8C27FF426F008F1221 /* APISuperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISuperClass.swift; sourceTree = "<group>"; };
+		991C3C90280001C3008F1221 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		991C3C9228000473008F1221 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		997A83C227FB022B00A074E3 /* MoneyTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83C527FB022B00A074E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997A83C727FB022B00A074E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,7 +182,11 @@
 				991C3C5327FCB6C5008F1221 /* HomeTableViewCell */,
 				991C3C3327FB612F008F1221 /* HomeViewController.swift */,
 				991C3C5A27FCC894008F1221 /* HomeView.swift */,
+				991C3C6927FDFE54008F1221 /* HomeInteractor.swift */,
+				991C3C6B27FDFEB5008F1221 /* HomeInterfaces.swift */,
+				991C3C6D27FDFF04008F1221 /* HomeModels.swift */,
 				991C3C4227FB69F9008F1221 /* HomeViewModel.swift */,
+				991C3C9228000473008F1221 /* HomePresenter.swift */,
 				991C3C4427FB6E85008F1221 /* HomeSection.swift */,
 			);
 			path = Home;
@@ -198,6 +238,97 @@
 			path = HomeTableViewCell;
 			sourceTree = "<group>";
 		};
+		991C3C6527FDF772008F1221 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C8F280001AD008F1221 /* Enums */,
+				991C3C6627FDF776008F1221 /* Home */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		991C3C6627FDF776008F1221 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C6727FDF79B008F1221 /* GetAccountsResponse.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		991C3C6F27FF01A3008F1221 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C7F27FF0729008F1221 /* Models */,
+				991C3C7A27FF06B9008F1221 /* Extensions */,
+				991C3C7127FF01BF008F1221 /* EventBus */,
+				991C3C7027FF01B3008F1221 /* ApplicationEvent */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		991C3C7027FF01B3008F1221 /* ApplicationEvent */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C8427FF0C91008F1221 /* GetAccountsEvent.swift */,
+			);
+			path = ApplicationEvent;
+			sourceTree = "<group>";
+		};
+		991C3C7127FF01BF008F1221 /* EventBus */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C7227FF0204008F1221 /* BusEvent.swift */,
+				991C3C7427FF0220008F1221 /* EventBus.swift */,
+				991C3C7627FF0679008F1221 /* SerialBusEvent.swift */,
+				991C3C7827FF06AD008F1221 /* SubrequestProtocol.swift */,
+			);
+			path = EventBus;
+			sourceTree = "<group>";
+		};
+		991C3C7A27FF06B9008F1221 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C7B27FF06C8008F1221 /* Single+Log.swift */,
+				991C3C7D27FF06DD008F1221 /* Observable+Log.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		991C3C7F27FF0729008F1221 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C8027FF0736008F1221 /* SerialSubrequest.swift */,
+				991C3C8227FF074A008F1221 /* ConcurrentSubrequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		991C3C8627FF0CED008F1221 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C8927FF4230008F1221 /* APIApplication */,
+				991C3C8A27FF424B008F1221 /* API.swift */,
+				991C3C8C27FF426F008F1221 /* APISuperClass.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		991C3C8927FF4230008F1221 /* APIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C8727FF1058008F1221 /* API+Accounts.swift */,
+			);
+			path = APIApplication;
+			sourceTree = "<group>";
+		};
+		991C3C8F280001AD008F1221 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C90280001C3008F1221 /* APIError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		997A83B927FB022B00A074E3 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +356,9 @@
 			children = (
 				997A83C527FB022B00A074E3 /* AppDelegate.swift */,
 				997A83C727FB022B00A074E3 /* SceneDelegate.swift */,
+				991C3C8627FF0CED008F1221 /* APIs */,
+				991C3C6F27FF01A3008F1221 /* Events */,
+				991C3C6527FDF772008F1221 /* Models */,
 				991C3C5027FB739D008F1221 /* Extensions */,
 				991C3C4627FB6EE1008F1221 /* Helpers */,
 				991C3C3527FB6152008F1221 /* Routers */,
@@ -515,24 +649,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				991C3C4F27FB7256008F1221 /* ValueCellDataSource.swift in Sources */,
+				991C3C7927FF06AD008F1221 /* SubrequestProtocol.swift in Sources */,
+				991C3C7C27FF06C8008F1221 /* Single+Log.swift in Sources */,
+				991C3C7527FF0220008F1221 /* EventBus.swift in Sources */,
 				991C3C3F27FB626C008F1221 /* HomeRoutable.swift in Sources */,
 				991C3C4827FB7030008F1221 /* TableViewDataSource.swift in Sources */,
 				991C3C4327FB69F9008F1221 /* HomeViewModel.swift in Sources */,
 				991C3C3827FB61C3008F1221 /* AppRouter.swift in Sources */,
+				991C3C8D27FF426F008F1221 /* APISuperClass.swift in Sources */,
+				991C3C7327FF0204008F1221 /* BusEvent.swift in Sources */,
+				991C3C6E27FDFF04008F1221 /* HomeModels.swift in Sources */,
 				991C3C5727FCB786008F1221 /* HomeTableViewCellViewModel.swift in Sources */,
+				991C3C6A27FDFE54008F1221 /* HomeInteractor.swift in Sources */,
 				997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */,
+				991C3C6C27FDFEB5008F1221 /* HomeInterfaces.swift in Sources */,
+				991C3C8327FF074A008F1221 /* ConcurrentSubrequest.swift in Sources */,
+				991C3C7E27FF06DD008F1221 /* Observable+Log.swift in Sources */,
+				991C3C9328000473008F1221 /* HomePresenter.swift in Sources */,
+				991C3C91280001C3008F1221 /* APIError.swift in Sources */,
 				991C3C3C27FB61F0008F1221 /* GeneralRoutable.swift in Sources */,
 				991C3C5227FB73EE008F1221 /* UIViewController+Extensions.swift in Sources */,
 				991C3C5927FCC7EE008F1221 /* UITableView+Extensions.swift in Sources */,
+				991C3C8827FF1058008F1221 /* API+Accounts.swift in Sources */,
+				991C3C8527FF0C91008F1221 /* GetAccountsEvent.swift in Sources */,
 				991C3C3A27FB61D9008F1221 /* AppRouterGeneral.swift in Sources */,
 				991C3C4D27FB7238008F1221 /* ValueCell.swift in Sources */,
 				991C3C4527FB6E85008F1221 /* HomeSection.swift in Sources */,
 				991C3C4127FB629B008F1221 /* AppRouter+Home.swift in Sources */,
 				997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */,
+				991C3C6827FDF79B008F1221 /* GetAccountsResponse.swift in Sources */,
 				991C3C4B27FB7169008F1221 /* SectionSetter.swift in Sources */,
 				991C3C5527FCB776008F1221 /* HomeTableViewCell.swift in Sources */,
+				991C3C8127FF0736008F1221 /* SerialSubrequest.swift in Sources */,
 				991C3C3427FB612F008F1221 /* HomeViewController.swift in Sources */,
 				991C3C5B27FCC894008F1221 /* HomeView.swift in Sources */,
+				991C3C8B27FF424B008F1221 /* API.swift in Sources */,
+				991C3C7727FF0679008F1221 /* SerialBusEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

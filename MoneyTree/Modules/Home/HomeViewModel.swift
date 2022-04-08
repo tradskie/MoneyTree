@@ -18,7 +18,21 @@ class HomeViewModel: HomeViewModelType {
     var sectionedItems: BehaviorRelay<[HomeSection]> = BehaviorRelay(value: [])
     var sectionCache = [Int: HomeSection]()
     
+    var interactor: HomeBusinessLogic!
+    
     required init() {
-        
+        interactor = HomeInteractor(presenter: HomePresenter(viewController: self))
     }
+}
+
+extension HomeViewModel: HomeDisplayable {
+    func displayAccounts(with viewModel: HomeModels.AccountsViewModel) {
+        print("displayAccounts(with viewModel: ")
+    }
+    
+    func displayAccounts(with error: HomeModels.DataError) {
+        print("displayAccounts(with error: ")
+    }
+    
+    
 }
