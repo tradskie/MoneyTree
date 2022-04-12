@@ -58,11 +58,31 @@
 		991C3CAA28045D96008F1221 /* HomeDetailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CA928045D96008F1221 /* HomeDetailSection.swift */; };
 		991C3CAC28047672008F1221 /* GetTransactionsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CAB28047672008F1221 /* GetTransactionsEvent.swift */; };
 		991C3CAE28055231008F1221 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CAD28055231008F1221 /* Date+Extensions.swift */; };
+		991C3CB12805906E008F1221 /* MockHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CB02805906E008F1221 /* MockHomeRouter.swift */; };
+		991C3CB528059126008F1221 /* MockHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CB428059126008F1221 /* MockHomeViewModel.swift */; };
+		991C3CB728059919008F1221 /* MockHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CB628059918008F1221 /* MockHomeInteractor.swift */; };
+		991C3CBA28059970008F1221 /* GetAccountsResponse+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CB928059970008F1221 /* GetAccountsResponse+Extensions.swift */; };
+		991C3CBC280599F0008F1221 /* HomeViewModel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CBB280599F0008F1221 /* HomeViewModel+Extensions.swift */; };
+		991C3CBE28059ADE008F1221 /* MockHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CBD28059ADE008F1221 /* MockHomePresenter.swift */; };
+		991C3CC028059B28008F1221 /* MockGetAccountsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CBF28059B27008F1221 /* MockGetAccountsEvent.swift */; };
+		991C3CC32805A23D008F1221 /* HomeInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CC22805A23D008F1221 /* HomeInteractorTests.swift */; };
+		991C3CC52805B776008F1221 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CC42805B776008F1221 /* HomePresenterTests.swift */; };
+		991C3CC72805BF70008F1221 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CC62805BF70008F1221 /* HomeViewModelTests.swift */; };
+		991C3CC92805DBD9008F1221 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CC82805DBD9008F1221 /* HomeViewControllerTests.swift */; };
+		991C3CCF2805EA7B008F1221 /* GetTransactionsResponse+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CCE2805EA7B008F1221 /* GetTransactionsResponse+Extensions.swift */; };
+		991C3CD12805F62A008F1221 /* HomeDetailViewModel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CD02805F62A008F1221 /* HomeDetailViewModel+Extensions.swift */; };
+		991C3CD328060084008F1221 /* MockHomeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CD228060084008F1221 /* MockHomeDetailViewModel.swift */; };
+		991C3CD5280602A1008F1221 /* MockHomeDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CD4280602A1008F1221 /* MockHomeDetailInteractor.swift */; };
+		991C3CD9280602DF008F1221 /* MockHomeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CD8280602DF008F1221 /* MockHomeDetailPresenter.swift */; };
+		991C3CDB28060324008F1221 /* MockGetTransactionsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CDA28060324008F1221 /* MockGetTransactionsEvent.swift */; };
+		991C3CDF280603EA008F1221 /* HomeDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CDE280603EA008F1221 /* HomeDetailInteractorTests.swift */; };
+		991C3CE128060575008F1221 /* HomeDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CE028060575008F1221 /* HomeDetailPresenterTests.swift */; };
+		991C3CE328060621008F1221 /* HomeDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CE228060621008F1221 /* HomeDetailViewModelTests.swift */; };
+		991C3CE5280606E4008F1221 /* HomeDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CE4280606E3008F1221 /* HomeDetailViewControllerTests.swift */; };
 		997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C527FB022B00A074E3 /* AppDelegate.swift */; };
 		997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C727FB022B00A074E3 /* SceneDelegate.swift */; };
 		997A83CF27FB022D00A074E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997A83CE27FB022D00A074E3 /* Assets.xcassets */; };
 		997A83D227FB022D00A074E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997A83D027FB022D00A074E3 /* LaunchScreen.storyboard */; };
-		997A83DD27FB022D00A074E3 /* MoneyTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83DC27FB022D00A074E3 /* MoneyTreeTests.swift */; };
 		997A83E727FB022E00A074E3 /* MoneyTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83E627FB022E00A074E3 /* MoneyTreeUITests.swift */; };
 		997A83E927FB022E00A074E3 /* MoneyTreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83E827FB022E00A074E3 /* MoneyTreeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -140,6 +160,27 @@
 		991C3CA928045D96008F1221 /* HomeDetailSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailSection.swift; sourceTree = "<group>"; };
 		991C3CAB28047672008F1221 /* GetTransactionsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTransactionsEvent.swift; sourceTree = "<group>"; };
 		991C3CAD28055231008F1221 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		991C3CB02805906E008F1221 /* MockHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeRouter.swift; sourceTree = "<group>"; };
+		991C3CB428059126008F1221 /* MockHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeViewModel.swift; sourceTree = "<group>"; };
+		991C3CB628059918008F1221 /* MockHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeInteractor.swift; sourceTree = "<group>"; };
+		991C3CB928059970008F1221 /* GetAccountsResponse+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetAccountsResponse+Extensions.swift"; sourceTree = "<group>"; };
+		991C3CBB280599F0008F1221 /* HomeViewModel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel+Extensions.swift"; sourceTree = "<group>"; };
+		991C3CBD28059ADE008F1221 /* MockHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomePresenter.swift; sourceTree = "<group>"; };
+		991C3CBF28059B27008F1221 /* MockGetAccountsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGetAccountsEvent.swift; sourceTree = "<group>"; };
+		991C3CC22805A23D008F1221 /* HomeInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorTests.swift; sourceTree = "<group>"; };
+		991C3CC42805B776008F1221 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
+		991C3CC62805BF70008F1221 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		991C3CC82805DBD9008F1221 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		991C3CCE2805EA7B008F1221 /* GetTransactionsResponse+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetTransactionsResponse+Extensions.swift"; sourceTree = "<group>"; };
+		991C3CD02805F62A008F1221 /* HomeDetailViewModel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDetailViewModel+Extensions.swift"; sourceTree = "<group>"; };
+		991C3CD228060084008F1221 /* MockHomeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeDetailViewModel.swift; sourceTree = "<group>"; };
+		991C3CD4280602A1008F1221 /* MockHomeDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeDetailInteractor.swift; sourceTree = "<group>"; };
+		991C3CD8280602DF008F1221 /* MockHomeDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeDetailPresenter.swift; sourceTree = "<group>"; };
+		991C3CDA28060324008F1221 /* MockGetTransactionsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGetTransactionsEvent.swift; sourceTree = "<group>"; };
+		991C3CDE280603EA008F1221 /* HomeDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailInteractorTests.swift; sourceTree = "<group>"; };
+		991C3CE028060575008F1221 /* HomeDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailPresenterTests.swift; sourceTree = "<group>"; };
+		991C3CE228060621008F1221 /* HomeDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewModelTests.swift; sourceTree = "<group>"; };
+		991C3CE4280606E3008F1221 /* HomeDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		997A83C227FB022B00A074E3 /* MoneyTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83C527FB022B00A074E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997A83C727FB022B00A074E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,7 +188,6 @@
 		997A83D127FB022D00A074E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		997A83D327FB022D00A074E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		997A83D827FB022D00A074E3 /* MoneyTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		997A83DC27FB022D00A074E3 /* MoneyTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTreeTests.swift; sourceTree = "<group>"; };
 		997A83E227FB022D00A074E3 /* MoneyTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83E627FB022E00A074E3 /* MoneyTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTreeUITests.swift; sourceTree = "<group>"; };
 		997A83E827FB022E00A074E3 /* MoneyTreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -376,6 +416,97 @@
 			path = HomeDetail;
 			sourceTree = "<group>";
 		};
+		991C3CAF280588E8008F1221 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CB02805906E008F1221 /* MockHomeRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		991C3CB2280590D4008F1221 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CCA2805E2E3008F1221 /* Detail */,
+				991C3CC12805A195008F1221 /* Cases */,
+				991C3CB828059957008F1221 /* Extensions */,
+				991C3CB3280590E8008F1221 /* Mocks */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		991C3CB3280590E8008F1221 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CB428059126008F1221 /* MockHomeViewModel.swift */,
+				991C3CB628059918008F1221 /* MockHomeInteractor.swift */,
+				991C3CBD28059ADE008F1221 /* MockHomePresenter.swift */,
+				991C3CBF28059B27008F1221 /* MockGetAccountsEvent.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		991C3CB828059957008F1221 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CB928059970008F1221 /* GetAccountsResponse+Extensions.swift */,
+				991C3CBB280599F0008F1221 /* HomeViewModel+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		991C3CC12805A195008F1221 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CC22805A23D008F1221 /* HomeInteractorTests.swift */,
+				991C3CC42805B776008F1221 /* HomePresenterTests.swift */,
+				991C3CC62805BF70008F1221 /* HomeViewModelTests.swift */,
+				991C3CC82805DBD9008F1221 /* HomeViewControllerTests.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		991C3CCA2805E2E3008F1221 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CCD2805E2F5008F1221 /* Mocks */,
+				991C3CCC2805E2F1008F1221 /* Extensions */,
+				991C3CCB2805E2EC008F1221 /* Cases */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		991C3CCB2805E2EC008F1221 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CDE280603EA008F1221 /* HomeDetailInteractorTests.swift */,
+				991C3CE028060575008F1221 /* HomeDetailPresenterTests.swift */,
+				991C3CE228060621008F1221 /* HomeDetailViewModelTests.swift */,
+				991C3CE4280606E3008F1221 /* HomeDetailViewControllerTests.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		991C3CCC2805E2F1008F1221 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CCE2805EA7B008F1221 /* GetTransactionsResponse+Extensions.swift */,
+				991C3CD02805F62A008F1221 /* HomeDetailViewModel+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		991C3CCD2805E2F5008F1221 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				991C3CD228060084008F1221 /* MockHomeDetailViewModel.swift */,
+				991C3CD4280602A1008F1221 /* MockHomeDetailInteractor.swift */,
+				991C3CD8280602DF008F1221 /* MockHomeDetailPresenter.swift */,
+				991C3CDA28060324008F1221 /* MockGetTransactionsEvent.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		997A83B927FB022B00A074E3 = {
 			isa = PBXGroup;
 			children = (
@@ -420,7 +551,8 @@
 		997A83DB27FB022D00A074E3 /* MoneyTreeTests */ = {
 			isa = PBXGroup;
 			children = (
-				997A83DC27FB022D00A074E3 /* MoneyTreeTests.swift */,
+				991C3CB2280590D4008F1221 /* Home */,
+				991C3CAF280588E8008F1221 /* Routers */,
 			);
 			path = MoneyTreeTests;
 			sourceTree = "<group>";
@@ -533,6 +665,7 @@
 					};
 					997A83D727FB022D00A074E3 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1330;
 						TestTargetID = 997A83C127FB022B00A074E3;
 					};
 					997A83E127FB022D00A074E3 = {
@@ -752,7 +885,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997A83DD27FB022D00A074E3 /* MoneyTreeTests.swift in Sources */,
+				991C3CB12805906E008F1221 /* MockHomeRouter.swift in Sources */,
+				991C3CC92805DBD9008F1221 /* HomeViewControllerTests.swift in Sources */,
+				991C3CBE28059ADE008F1221 /* MockHomePresenter.swift in Sources */,
+				991C3CE5280606E4008F1221 /* HomeDetailViewControllerTests.swift in Sources */,
+				991C3CD5280602A1008F1221 /* MockHomeDetailInteractor.swift in Sources */,
+				991C3CDF280603EA008F1221 /* HomeDetailInteractorTests.swift in Sources */,
+				991C3CC52805B776008F1221 /* HomePresenterTests.swift in Sources */,
+				991C3CD328060084008F1221 /* MockHomeDetailViewModel.swift in Sources */,
+				991C3CD9280602DF008F1221 /* MockHomeDetailPresenter.swift in Sources */,
+				991C3CE328060621008F1221 /* HomeDetailViewModelTests.swift in Sources */,
+				991C3CBA28059970008F1221 /* GetAccountsResponse+Extensions.swift in Sources */,
+				991C3CC32805A23D008F1221 /* HomeInteractorTests.swift in Sources */,
+				991C3CDB28060324008F1221 /* MockGetTransactionsEvent.swift in Sources */,
+				991C3CCF2805EA7B008F1221 /* GetTransactionsResponse+Extensions.swift in Sources */,
+				991C3CC72805BF70008F1221 /* HomeViewModelTests.swift in Sources */,
+				991C3CD12805F62A008F1221 /* HomeDetailViewModel+Extensions.swift in Sources */,
+				991C3CB528059126008F1221 /* MockHomeViewModel.swift in Sources */,
+				991C3CC028059B28008F1221 /* MockGetAccountsEvent.swift in Sources */,
+				991C3CE128060575008F1221 /* HomeDetailPresenterTests.swift in Sources */,
+				991C3CBC280599F0008F1221 /* HomeViewModel+Extensions.swift in Sources */,
+				991C3CB728059919008F1221 /* MockHomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,15 +1125,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C5DH47KNGM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.MoneyTreeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyTree.app/MoneyTree";
@@ -993,11 +1153,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C5DH47KNGM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.MoneyTreeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

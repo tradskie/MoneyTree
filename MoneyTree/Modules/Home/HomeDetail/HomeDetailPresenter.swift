@@ -37,7 +37,7 @@ extension HomeDetailPresenter: HomeDetailPresentable {
     }
     
     func presentTransactions(with error: HomeDetailModels.DataError) {
-        print("presentTransactions(with error")
+        viewController?.displayTransactions(with: error)
     }
     
     

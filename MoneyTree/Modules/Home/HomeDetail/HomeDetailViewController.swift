@@ -69,6 +69,15 @@ class HomeDetailViewController<ViewModel, Router>: UIViewController where ViewMo
                 strongSelf.viewModel.setSection(.transactions(items: value))
             })
             .disposed(by: disposeBag)
+        
+        viewModel.notifyError
+            .subscribe(onNext: { [weak self] (value) in
+                guard let strongSelf = self, let value = value else { return }
+                DispatchQueue.main.async {
+                    strongSelf.router.handleError(error: value)
+                }
+            })
+            .disposed(by: disposeBag)
     }
     
 }

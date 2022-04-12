@@ -15,7 +15,7 @@ extension Date {
             (calendar.component(.year, from: Date()) == calendar.component(.year, from: self)) {
             return "This Month"
         } else {
-            return DateFormatter.formatter.string(from: self)//"\(calendar.component(.month, from: self)) \(calendar.component(.year, from: self))"
+            return DateFormatter.formatter.string(from: self)
         }
     }
     

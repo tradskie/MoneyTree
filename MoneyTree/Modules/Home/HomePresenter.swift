@@ -37,7 +37,7 @@ extension HomePresenter: HomePresentable {
     }
     
     func presentAccounts(with error: HomeModels.DataError) {
-        print("presentAccounts(with error")
+        viewController?.displayAccounts(with: error)
     }
     
 }

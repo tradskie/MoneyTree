@@ -11,12 +11,14 @@ import RxDataSources
 
 protocol HomeViewModelType: SectionSetter, TableViewSectionSetter where Section == HomeSection {
     var accounts: BehaviorRelay<[HomeTableViewCellViewModel]> { get }
+    var notifyError: PublishRelay<Error?> { get }
     init()
 }
 
 class HomeViewModel: HomeViewModelType {
     
     let accounts: BehaviorRelay<[HomeTableViewCellViewModel]> = BehaviorRelay(value: [])
+    let notifyError: PublishRelay<Error?> = PublishRelay()
     
     var dataSource: RxTableViewSectionedReloadDataSource<Section> = Section.generateDataSource()
     var sectionedItems: BehaviorRelay<[HomeSection]> = BehaviorRelay(value: [])
@@ -35,7 +37,7 @@ extension HomeViewModel: HomeDisplayable {
     }
     
     func displayAccounts(with error: HomeModels.DataError) {
-        print("displayAccounts(with error: ")
+        notifyError.accept(error.error)
     }
     
     

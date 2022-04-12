@@ -72,6 +72,15 @@ class HomeViewController<ViewModel, Router>: UIViewController where ViewModel: H
             })
             .disposed(by: disposeBag)
         
+        viewModel.notifyError
+            .subscribe(onNext: { [weak self] (value) in
+                guard let strongSelf = self, let value = value else { return }
+                DispatchQueue.main.async {
+                    strongSelf.router.handleError(error: value)
+                }
+            })
+            .disposed(by: disposeBag)
+        
         rootView.tableView.rx.itemSelected
             .subscribe(onNext: { [weak self] (indexPath) in
                 guard let strongSelf = self else { return }

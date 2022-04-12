@@ -14,6 +14,7 @@ protocol HomeDetailViewModelType: SectionSetter, TableViewSectionSetter where Se
     var id: BehaviorRelay<Int?> { get }
     var name: BehaviorRelay<String?> { get }
     var currency: BehaviorRelay<String?> { get }
+    var notifyError: PublishRelay<Error?> { get }
     init()
 }
 
@@ -22,7 +23,7 @@ class HomeDetailViewModel: HomeDetailViewModelType {
     var id = BehaviorRelay<Int?>(value: nil)
     var name = BehaviorRelay<String?>(value: nil)
     var currency = BehaviorRelay<String?>(value: nil)
-    
+    var notifyError: PublishRelay<Error?> = PublishRelay()
     var dataSource: RxTableViewSectionedReloadDataSource<Section> = Section.generateDataSource()
     var sectionedItems: BehaviorRelay<[HomeDetailSection]> = BehaviorRelay(value: [])
     var sectionCache = [Int: HomeDetailSection]()
@@ -52,6 +53,6 @@ extension HomeDetailViewModel: HomeDetailDisplayable {
     }
     
     func displayTransactions(with error: HomeDetailModels.DataError) {
-        
+        notifyError.accept(error.error)
     }
 }
