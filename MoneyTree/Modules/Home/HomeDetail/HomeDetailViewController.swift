@@ -1,20 +1,20 @@
 //
-//  HomeViewController.swift
+//  HomeDetailViewController.swift
 //  MoneyTree
 //
-//  Created by Jack Xiong Lim on 5/4/22.
+//  Created by Jack Xiong Lim on 11/4/22.
 //
 
 import UIKit
 import RxSwift
 import RxDataSources
 
-class HomeViewController<ViewModel, Router>: UIViewController where ViewModel: HomeViewModelType, Router: GeneralRoutable & HomeRoutable {
+class HomeDetailViewController<ViewModel, Router>: UIViewController where ViewModel: HomeDetailViewModelType, Router: GeneralRoutable {
     // MARK: - Properties -
     // MARK: Internal
     
-    var rootView: HomeView {
-        return view as! HomeView
+    var rootView: HomeDetailView {
+        return view as! HomeDetailView
     }
     
     // MARK: Private
@@ -37,7 +37,7 @@ class HomeViewController<ViewModel, Router>: UIViewController where ViewModel: H
     }
     
     override func loadView() {
-        view = HomeView(frame: UIScreen.main.bounds)
+        view = HomeDetailView(frame: UIScreen.main.bounds)
     }
     
     override func viewDidLoad() {
@@ -51,11 +51,9 @@ class HomeViewController<ViewModel, Router>: UIViewController where ViewModel: H
     // MARK: Setup Methods
     
     private func setupView() {
-        // rootView.tableView.delegate = self
-        
-        for section in HomeSection.allCases {
+         for section in HomeDetailSection.allCases {
             rootView.tableView.registerCellClass(section.cellType)
-        }
+         }
     }
     
     private func setupListeners() {
@@ -65,27 +63,12 @@ class HomeViewController<ViewModel, Router>: UIViewController where ViewModel: H
             .bind(to: rootView.tableView.rx.items(dataSource: viewModel.dataSource))
             .disposed(by: disposeBag)
         
-        viewModel.accounts
+        viewModel.transactions
             .subscribe(onNext: { [weak self] (value) in
                 guard let strongSelf = self else { return }
-                strongSelf.viewModel.setSection(.accounts(items: value))
-            })
-            .disposed(by: disposeBag)
-        
-        rootView.tableView.rx.itemSelected
-            .subscribe(onNext: { [weak self] (indexPath) in
-                guard let strongSelf = self else { return }
-                switch indexPath.section {
-                case HomeSection.accounts(items: [HomeTableViewCellViewModel]()).sectionOrder:
-                    guard let cell = strongSelf.rootView.tableView.cellForRow(at: indexPath) as? HomeTableViewCell,
-                          let id = cell.viewModel.id.value,
-                          let name = cell.viewModel.name.value,
-                          let currency = cell.viewModel.currency.value
-                    else { return }
-                    strongSelf.router.navigateToDetail(id: id, name: name, currency: currency)
-                default: break
-                }
+                strongSelf.viewModel.setSection(.transactions(items: value))
             })
             .disposed(by: disposeBag)
     }
+    
 }

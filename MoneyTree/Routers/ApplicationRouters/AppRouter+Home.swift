@@ -8,6 +8,9 @@
 import Foundation
 
 extension AppRouterGeneral: HomeRoutable {
-    func navigateToDetail() {
+    func navigateToDetail(id: Int, name: String, currency: String) {
+        // TODO: - hardcoded currency for demo purpose - due to accountID 2 is JPY
+        let viewController = HomeDetailViewController(viewModel: HomeDetailViewModel(id: id, name: name, currency: "JPY"), router: AppRouterGeneral.sharedInstance())
+        navigateTo(viewController)
     }
 }

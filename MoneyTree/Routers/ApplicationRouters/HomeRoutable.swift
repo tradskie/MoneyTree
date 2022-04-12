@@ -8,5 +8,5 @@
 import Foundation
 
 protocol HomeRoutable {
-    func navigateToDetail()
+    func navigateToDetail(id: Int, name: String, currency: String)
 }

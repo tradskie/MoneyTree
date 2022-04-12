@@ -10,10 +10,14 @@ import RxCocoa
 import RxDataSources
 
 protocol HomeViewModelType: SectionSetter, TableViewSectionSetter where Section == HomeSection {
+    var accounts: BehaviorRelay<[HomeTableViewCellViewModel]> { get }
     init()
 }
 
 class HomeViewModel: HomeViewModelType {
+    
+    let accounts: BehaviorRelay<[HomeTableViewCellViewModel]> = BehaviorRelay(value: [])
+    
     var dataSource: RxTableViewSectionedReloadDataSource<Section> = Section.generateDataSource()
     var sectionedItems: BehaviorRelay<[HomeSection]> = BehaviorRelay(value: [])
     var sectionCache = [Int: HomeSection]()
@@ -27,7 +31,7 @@ class HomeViewModel: HomeViewModelType {
 
 extension HomeViewModel: HomeDisplayable {
     func displayAccounts(with viewModel: HomeModels.AccountsViewModel) {
-        print("displayAccounts(with viewModel: ")
+        accounts.accept(viewModel.contentVMs)
     }
     
     func displayAccounts(with error: HomeModels.DataError) {

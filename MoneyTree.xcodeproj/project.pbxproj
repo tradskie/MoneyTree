@@ -45,6 +45,19 @@
 		991C3C8D27FF426F008F1221 /* APISuperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C8C27FF426F008F1221 /* APISuperClass.swift */; };
 		991C3C91280001C3008F1221 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C90280001C3008F1221 /* APIError.swift */; };
 		991C3C9328000473008F1221 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C9228000473008F1221 /* HomePresenter.swift */; };
+		991C3C952803FB32008F1221 /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C942803FB32008F1221 /* PriceFormatter.swift */; };
+		991C3C9728043BDC008F1221 /* GetTransactionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C9628043BDC008F1221 /* GetTransactionsResponse.swift */; };
+		991C3C992804543E008F1221 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C982804543E008F1221 /* DateFormatter+Extensions.swift */; };
+		991C3C9C28045D33008F1221 /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C9B28045D33008F1221 /* HomeDetailViewController.swift */; };
+		991C3C9E28045D3F008F1221 /* HomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C9D28045D3F008F1221 /* HomeDetailView.swift */; };
+		991C3CA028045D4D008F1221 /* HomeDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3C9F28045D4D008F1221 /* HomeDetailInteractor.swift */; };
+		991C3CA228045D56008F1221 /* HomeDetailInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CA128045D56008F1221 /* HomeDetailInterfaces.swift */; };
+		991C3CA428045D60008F1221 /* HomeDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CA328045D60008F1221 /* HomeDetailModels.swift */; };
+		991C3CA628045D7F008F1221 /* HomeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CA528045D7F008F1221 /* HomeDetailViewModel.swift */; };
+		991C3CA828045D8D008F1221 /* HomeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CA728045D8D008F1221 /* HomeDetailPresenter.swift */; };
+		991C3CAA28045D96008F1221 /* HomeDetailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CA928045D96008F1221 /* HomeDetailSection.swift */; };
+		991C3CAC28047672008F1221 /* GetTransactionsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CAB28047672008F1221 /* GetTransactionsEvent.swift */; };
+		991C3CAE28055231008F1221 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C3CAD28055231008F1221 /* Date+Extensions.swift */; };
 		997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C527FB022B00A074E3 /* AppDelegate.swift */; };
 		997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A83C727FB022B00A074E3 /* SceneDelegate.swift */; };
 		997A83CF27FB022D00A074E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997A83CE27FB022D00A074E3 /* Assets.xcassets */; };
@@ -114,6 +127,19 @@
 		991C3C8C27FF426F008F1221 /* APISuperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISuperClass.swift; sourceTree = "<group>"; };
 		991C3C90280001C3008F1221 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		991C3C9228000473008F1221 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		991C3C942803FB32008F1221 /* PriceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFormatter.swift; sourceTree = "<group>"; };
+		991C3C9628043BDC008F1221 /* GetTransactionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTransactionsResponse.swift; sourceTree = "<group>"; };
+		991C3C982804543E008F1221 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		991C3C9B28045D33008F1221 /* HomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
+		991C3C9D28045D3F008F1221 /* HomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailView.swift; sourceTree = "<group>"; };
+		991C3C9F28045D4D008F1221 /* HomeDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailInteractor.swift; sourceTree = "<group>"; };
+		991C3CA128045D56008F1221 /* HomeDetailInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailInterfaces.swift; sourceTree = "<group>"; };
+		991C3CA328045D60008F1221 /* HomeDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailModels.swift; sourceTree = "<group>"; };
+		991C3CA528045D7F008F1221 /* HomeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewModel.swift; sourceTree = "<group>"; };
+		991C3CA728045D8D008F1221 /* HomeDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailPresenter.swift; sourceTree = "<group>"; };
+		991C3CA928045D96008F1221 /* HomeDetailSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailSection.swift; sourceTree = "<group>"; };
+		991C3CAB28047672008F1221 /* GetTransactionsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTransactionsEvent.swift; sourceTree = "<group>"; };
+		991C3CAD28055231008F1221 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		997A83C227FB022B00A074E3 /* MoneyTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A83C527FB022B00A074E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997A83C727FB022B00A074E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +205,7 @@
 		991C3C3627FB615F008F1221 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				991C3C9A28045C84008F1221 /* HomeDetail */,
 				991C3C5327FCB6C5008F1221 /* HomeTableViewCell */,
 				991C3C3327FB612F008F1221 /* HomeViewController.swift */,
 				991C3C5A27FCC894008F1221 /* HomeView.swift */,
@@ -205,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				991C3C4927FB715B008F1221 /* TableViewAndCells */,
+				991C3C942803FB32008F1221 /* PriceFormatter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -225,6 +253,8 @@
 			children = (
 				991C3C5127FB73EE008F1221 /* UIViewController+Extensions.swift */,
 				991C3C5827FCC7EE008F1221 /* UITableView+Extensions.swift */,
+				991C3C982804543E008F1221 /* DateFormatter+Extensions.swift */,
+				991C3CAD28055231008F1221 /* Date+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -251,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				991C3C6727FDF79B008F1221 /* GetAccountsResponse.swift */,
+				991C3C9628043BDC008F1221 /* GetTransactionsResponse.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -270,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				991C3C8427FF0C91008F1221 /* GetAccountsEvent.swift */,
+				991C3CAB28047672008F1221 /* GetTransactionsEvent.swift */,
 			);
 			path = ApplicationEvent;
 			sourceTree = "<group>";
@@ -327,6 +359,21 @@
 				991C3C90280001C3008F1221 /* APIError.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		991C3C9A28045C84008F1221 /* HomeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				991C3C9B28045D33008F1221 /* HomeDetailViewController.swift */,
+				991C3C9D28045D3F008F1221 /* HomeDetailView.swift */,
+				991C3C9F28045D4D008F1221 /* HomeDetailInteractor.swift */,
+				991C3CA128045D56008F1221 /* HomeDetailInterfaces.swift */,
+				991C3CA328045D60008F1221 /* HomeDetailModels.swift */,
+				991C3CA528045D7F008F1221 /* HomeDetailViewModel.swift */,
+				991C3CA728045D8D008F1221 /* HomeDetailPresenter.swift */,
+				991C3CA928045D96008F1221 /* HomeDetailSection.swift */,
+			);
+			path = HomeDetail;
 			sourceTree = "<group>";
 		};
 		997A83B927FB022B00A074E3 = {
@@ -649,10 +696,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				991C3C4F27FB7256008F1221 /* ValueCellDataSource.swift in Sources */,
+				991C3CA028045D4D008F1221 /* HomeDetailInteractor.swift in Sources */,
 				991C3C7927FF06AD008F1221 /* SubrequestProtocol.swift in Sources */,
 				991C3C7C27FF06C8008F1221 /* Single+Log.swift in Sources */,
 				991C3C7527FF0220008F1221 /* EventBus.swift in Sources */,
+				991C3CA828045D8D008F1221 /* HomeDetailPresenter.swift in Sources */,
 				991C3C3F27FB626C008F1221 /* HomeRoutable.swift in Sources */,
+				991C3CA628045D7F008F1221 /* HomeDetailViewModel.swift in Sources */,
 				991C3C4827FB7030008F1221 /* TableViewDataSource.swift in Sources */,
 				991C3C4327FB69F9008F1221 /* HomeViewModel.swift in Sources */,
 				991C3C3827FB61C3008F1221 /* AppRouter.swift in Sources */,
@@ -662,10 +712,15 @@
 				991C3C5727FCB786008F1221 /* HomeTableViewCellViewModel.swift in Sources */,
 				991C3C6A27FDFE54008F1221 /* HomeInteractor.swift in Sources */,
 				997A83C627FB022B00A074E3 /* AppDelegate.swift in Sources */,
+				991C3C992804543E008F1221 /* DateFormatter+Extensions.swift in Sources */,
+				991C3CA428045D60008F1221 /* HomeDetailModels.swift in Sources */,
+				991C3CAC28047672008F1221 /* GetTransactionsEvent.swift in Sources */,
+				991C3C952803FB32008F1221 /* PriceFormatter.swift in Sources */,
 				991C3C6C27FDFEB5008F1221 /* HomeInterfaces.swift in Sources */,
 				991C3C8327FF074A008F1221 /* ConcurrentSubrequest.swift in Sources */,
 				991C3C7E27FF06DD008F1221 /* Observable+Log.swift in Sources */,
 				991C3C9328000473008F1221 /* HomePresenter.swift in Sources */,
+				991C3CA228045D56008F1221 /* HomeDetailInterfaces.swift in Sources */,
 				991C3C91280001C3008F1221 /* APIError.swift in Sources */,
 				991C3C3C27FB61F0008F1221 /* GeneralRoutable.swift in Sources */,
 				991C3C5227FB73EE008F1221 /* UIViewController+Extensions.swift in Sources */,
@@ -676,12 +731,17 @@
 				991C3C4D27FB7238008F1221 /* ValueCell.swift in Sources */,
 				991C3C4527FB6E85008F1221 /* HomeSection.swift in Sources */,
 				991C3C4127FB629B008F1221 /* AppRouter+Home.swift in Sources */,
+				991C3CAA28045D96008F1221 /* HomeDetailSection.swift in Sources */,
+				991C3C9E28045D3F008F1221 /* HomeDetailView.swift in Sources */,
+				991C3C9728043BDC008F1221 /* GetTransactionsResponse.swift in Sources */,
 				997A83C827FB022B00A074E3 /* SceneDelegate.swift in Sources */,
 				991C3C6827FDF79B008F1221 /* GetAccountsResponse.swift in Sources */,
 				991C3C4B27FB7169008F1221 /* SectionSetter.swift in Sources */,
 				991C3C5527FCB776008F1221 /* HomeTableViewCell.swift in Sources */,
+				991C3CAE28055231008F1221 /* Date+Extensions.swift in Sources */,
 				991C3C8127FF0736008F1221 /* SerialSubrequest.swift in Sources */,
 				991C3C3427FB612F008F1221 /* HomeViewController.swift in Sources */,
+				991C3C9C28045D33008F1221 /* HomeDetailViewController.swift in Sources */,
 				991C3C5B27FCC894008F1221 /* HomeView.swift in Sources */,
 				991C3C8B27FF424B008F1221 /* API.swift in Sources */,
 				991C3C7727FF0679008F1221 /* SerialBusEvent.swift in Sources */,
