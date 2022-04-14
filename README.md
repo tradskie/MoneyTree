@@ -3,6 +3,7 @@
 * [Setup](#setup)
 * [Design](#design)
 * [Module](#module)
+* [Limitation](#limitation)
 
 ## General info
 This project is an assignment for MoneyTree's interview.
